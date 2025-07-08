@@ -1,0 +1,14 @@
+<suite name="TC4VerifyViewProductDetailTest" parallel="tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC4VerifyViewProductDetailTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC4VerifyViewProductDetailTest"/>
+        </classes>
+    </test>
+</suite>

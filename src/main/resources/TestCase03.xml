@@ -1,0 +1,14 @@
+<suite name="TC3VerifyListProductsTest" parallel="tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC3VerifyListProductsTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC3VerifyListProductsTest"/>
+        </classes>
+    </test>
+</suite>

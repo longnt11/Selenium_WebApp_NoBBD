@@ -1,0 +1,14 @@
+<suite name="TC2VerifySuccessfullyLoginTest" parallel="tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC2VerifySuccessfullyLoginTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC2VerifySuccessfullyLoginTest"/>
+        </classes>
+    </test>
+</suite>

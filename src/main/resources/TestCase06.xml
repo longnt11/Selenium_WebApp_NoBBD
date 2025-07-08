@@ -1,0 +1,14 @@
+<suite name="TC6VerifyPrintBarcodePageTest" parallel="tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC6VerifyPrintBarcodePageTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="AssignmentFinal.tests.TC6VerifyPrintBarcodePageTest"/>
+        </classes>
+    </test>
+</suite>

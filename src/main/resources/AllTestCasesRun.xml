@@ -1,0 +1,14 @@
+<suite name="AssignmentFinal" parallel="tests" thread-count="2">
+    <test name="chrome">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="AssignmentFinal.tests"/>
+        </packages>
+    </test>
+    <test name="firefox">
+        <parameter name="browser" value="firefox"/>-->
+        <packages>
+            <package name="AssignmentFinal.tests"/>
+        </packages>
+    </test>
+</suite>
